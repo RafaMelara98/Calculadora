@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package package_productos;
+package Aritmetica;
 
 /**
  *
- * @author LN710Q
+ * @author Rafael Melara
  */
-public class Suma  {
-    
+public interface Operacion {
+    int Operacion(int a, int b);
 }

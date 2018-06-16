@@ -29,23 +29,7 @@ public class Ventana extends JPanel {
        
        
        
-        add(textF1);
-        add(textF2);
-        add(textF3);
-        add(textF4);
-        add(textF5);
-        add(textF6);
-        add(textR);
-        add(button1);
-        add(button2);
-        add(button3);
-        add(button4);
-        add(button5);
-       
-        
-        
-        setLayout(null); 
-        setPreferredSize(new Dimension(WIDTH, HEIGHT));
+  
     }
     
     

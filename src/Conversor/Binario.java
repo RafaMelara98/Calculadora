@@ -13,7 +13,14 @@ public class Binario implements Operator{
 
     @Override
     public String Convertir(int bin) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+           String b = ""; 
+        while (bin != 0) {
+            int r = (int)(bin % 2); 
+            b = r + b;
+            bin /= 2; 
+        }
+        return b;
+    }
     }
     
-}
+

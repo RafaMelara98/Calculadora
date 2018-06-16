@@ -15,9 +15,9 @@ import Conversor.FactoryOperator;
 public class FactoryProducer {
     public static AbstractFactory getFactory(String type){
         switch (type){
-            case "color":
+            case "aritmetica":
                 return  new FactoryAritmetica();
-            case "shape":
+            case "conversor":
                 return new FactoryOperator();
         }
         
